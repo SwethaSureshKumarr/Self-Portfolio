@@ -1,0 +1,52 @@
+@import '../../assets/variables';
+
+$primary-black:#000000;
+$primary-blue: #34acb0;
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo-Wrapper{
+    img{
+        display: inline-block;
+        width: 3vw;
+        height: 10vh;
+        margin-left:10px;
+       
+    }
+}
+
+.nav-bar{
+   position: fixed;
+   height:100%;
+    background-color:$primary-black;
+    color: $primary-blue;
+    li{
+        
+        list-style-type: none;
+        margin-right: 3vw;
+    }
+    a{  
+        font-size: 25px;
+        color: $primary-blue;
+        text-decoration: none;
+    }
+}
+
+main{
+    background-color: $primary-black;
+}
+.cover-wrapper{
+    background-color: $primary-black;
+    width: 100%;
+    height:100vh;
+}
+
+.cover-background{
+    width: 100%;
+    height:100%;
+    position: fixed;
+    
+}
