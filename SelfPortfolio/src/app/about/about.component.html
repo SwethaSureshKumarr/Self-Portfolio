@@ -1,0 +1,21 @@
+<div class="About me">
+    <h2 class="headings"> About Me</h2>
+    <pre class="description">
+        I am a junior developer from India with almost two years of experience in software development and I love solving problems. I've been working with computers for as long as I can remember, and I've always been fascinated by how they work.
+        I love learning new things and exploring different technologies.
+        
+        For the past few years, my primary focus has been frontend programming using JavaScript and Angular, but I'm also skilled at back-end development with Java. 
+        Because I started my career as an ITSM developer, I am highly customer-focused and agile.
+    </pre>            
+</div>
+<div class="technologies">
+    <h2 class="heading">
+        Technologies
+    </h2>
+    <div class='technologies-wrapper'>
+        <div class="technology-card" *ngFor="let technology of technologies" >
+            <img src="{{technology.img}}" alt="{{technology.name}}">
+            <figcaption class="technology-name">{{technology.name}}</figcaption>                  
+        </div>
+    </div>
+</div>
