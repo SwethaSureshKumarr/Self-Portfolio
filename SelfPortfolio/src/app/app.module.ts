@@ -9,8 +9,8 @@ import { LoadingComponent } from './loading/loading.component';
 import { AboutComponent } from './about/about.component';
 import { ProjectComponent } from './project/project.component';
 import { ContactComponent } from './contact/contact.component';
-import { ResumeComponent } from './resume/resume.component';
 import { RouterModule } from '@angular/router';
+import { PdfViewerModule } from 'ng2-pdf-viewer';
 
 @NgModule({
   declarations: [
@@ -19,8 +19,7 @@ import { RouterModule } from '@angular/router';
     LoadingComponent,
     AboutComponent,
     ProjectComponent,
-    ContactComponent,
-    ResumeComponent
+    ContactComponent
   ],
   imports: [
     BrowserModule,
