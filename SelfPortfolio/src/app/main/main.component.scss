@@ -124,9 +124,6 @@ main {
         display: inline-block;
         object-fit: contain;
         width: 100px;
-        &:hover{
-            width: 103px;
-        }
     }
 
     .technology-card {
@@ -164,7 +161,6 @@ main {
         justify-content: space-evenly;
         word-break: break-word;        
         width: 35%;
-        height: 747px;
         margin:20px;
         padding: 36px;
         .project-img {
@@ -174,9 +170,6 @@ main {
             width: 100%;
             object-fit: fill;
             height: 305px;
-            &:hover{
-                filter: blur(0px);
-            }
         }
         .project-description {
             display: flex;
@@ -197,12 +190,12 @@ main {
                     margin-top: 10px;
                 }
             }
-        }   
-        
-        &:hover{
-            width: 35.5%;
-            height: 749px; 
         }
+
+        :hover{
+            filter: blur(0px);
+        }
+        
     }
 }
 
