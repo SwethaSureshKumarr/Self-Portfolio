@@ -122,3 +122,32 @@ $secondary-blue: #214173;
     flex-direction: column;
     align-items: center;
 }
+
+//mobile design
+@media screen and (min-width:360px) and ( max-width:414px)  {
+
+    .heading{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .projects{
+        .project-card{
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 90%;
+            .project-description{
+                width: 100%;
+            .project-name,
+            .description,
+            .websites {
+                    margin: 15px 25px 15px 15px !important;
+                    font-size: 18px !important;
+                }
+            }
+        }
+    }
+    
+}

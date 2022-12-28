@@ -80,6 +80,11 @@ li:hover .border{
             font-size: 15px;
         }
     }
-
-    
+    li:hover .border{
+        width: 0px;
+        height: 0px;
+    }
+    li:hover a{
+        color:#f89589 ;
+    }
 }
