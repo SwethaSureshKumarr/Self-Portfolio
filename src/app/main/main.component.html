@@ -21,10 +21,14 @@
                 <img class="about" src="../../assets/ezgif-4-06c2ffd9cc-removebg-preview.png">
                 <div class="description-wrapper">
                     <div class="socials-wrapper">
-                        <a href="mailto:swethasureshkumarr@gmail.com?Subject=Some%20subject"><img class='gmail' src="../assets/Icons/gmail.png"/></a>
-                        <a href="https://www.linkedin.com/in/swetha-suresh-kumar/"><img class='linkedin' src="../assets/Icons/linkedin.png"/></a>
-                        <a href="https://www.github.com/SwethaSureshKumarr"><img class='github' src="../assets/Icons/github.png"/></a>
-                        <a href="https://www.hackerrank.com/swethasuresh_ss1"><img class='hackerrank' src="../assets/Icons/hackerrank.png"/></a>
+                        <a href="mailto:swethasureshkumarr@gmail.com?Subject=Some%20subject"><img class='gmail'
+                                src="../assets/Icons/gmail.png" /></a>
+                        <a href="https://www.linkedin.com/in/swetha-suresh-kumar/"><img class='linkedin'
+                                src="../assets/Icons/linkedin.png" /></a>
+                        <a href="https://www.github.com/SwethaSureshKumarr"><img class='github'
+                                src="../assets/Icons/github.png" /></a>
+                        <a href="https://www.hackerrank.com/swethasuresh_ss1"><img class='hackerrank'
+                                src="../assets/Icons/hackerrank.png" /></a>
                     </div>
                     <p class="description">
                         I've been working as a junior developer for about two years and enjoy problem solving. I enjoy
@@ -43,12 +47,162 @@
         </div>
         <div class="section technologies">
             <h2 class="heading">
-                Technologies
+                Skills
             </h2>
             <div class='technologies-wrapper'>
-                <div class="technology-card" *ngFor="let technology of technologies">
-                    <img class="tech-img" src="{{technology.img}}" alt="{{technology.name}}">
-                    <figcaption class="technology-name">{{technology.name}}</figcaption>
+                <div class="technology-card Frontend">
+                    <div class="card-wrapper">
+                        <img class="tech-img" src="../../assets/Icons/front-end.png" alt="Front-end">
+                        <h3 class="heading">Front-end</h3>
+                        <ul>
+                            <li class="skills-list">
+                                <span><fa-icon [icon]="fCheck"></fa-icon></span>
+                                HTML
+                            </li>
+                            <li class="skills-list">
+                                <span><fa-icon [icon]="fCheck"></fa-icon></span>
+                                CSS/SCSS
+                            </li>
+                            <li class="skills-list">
+                                <span><fa-icon [icon]="fCheck"></fa-icon></span>
+                                Angular 8+
+                            </li>
+                            <li class="skills-list">
+                                <span><fa-icon [icon]="fCheck"></fa-icon></span>
+                                Typescript
+                            </li>
+                            <li class="skills-list">
+                                <span><fa-icon [icon]="fCheck"></fa-icon></span>
+                                Javascript
+                            </li>
+                            <li class="skills-list">
+                                <span><fa-icon [icon]="fCheck"></fa-icon></span>
+                                SVG
+                            </li>
+                            <li class="skills-list">
+                                <span><fa-icon [icon]="fCheck"></fa-icon></span>
+                                jQuery
+                            </li>
+                            <li class="skills-list">
+                                <span><fa-icon [icon]="fCheck"></fa-icon></span>
+                                JEST
+                            </li>
+                            <li class="skills-list">
+                                <span><fa-icon [icon]="fCheck"></fa-icon></span>
+                                Node.js
+                            </li>
+                            <li class="skills-list">
+                                <span><fa-icon [icon]="fCheck"></fa-icon></span>
+                                Dialog Flow
+                            </li>
+                            <li class="skills-list">
+                                <span><fa-icon [icon]="fCheck"></fa-icon></span>
+                                E2E Testing
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="technology-card Backend">
+                    <div class="card-wrapper">
+                        <img class="tech-img" src="../../assets/Icons/backend.png" alt="backend">
+                        <h3 class="heading">Backend</h3>
+                        <ul>
+                            <li class="skills-list">
+                                <span><fa-icon [icon]="fCheck"></fa-icon></span>
+                                Java
+                            </li>
+                            <li class="skills-list">
+                                <span><fa-icon [icon]="fCheck"></fa-icon></span>
+                                Junit
+                            </li>
+                            <li class="skills-list">
+                                <span><fa-icon [icon]="fCheck"></fa-icon></span>
+                                SpringBoot
+                            </li>
+                            <li class="skills-list">
+                                <span><fa-icon [icon]="fCheck"></fa-icon></span>
+                                MySQL
+                            </li>
+                            <li class="skills-list">
+                                <span><fa-icon [icon]="fCheck"></fa-icon></span>
+                                PostgreSQL
+                            </li>
+                            <li class="skills-list">
+                                <span><fa-icon [icon]="fCheck"></fa-icon></span>
+                                Bash
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="technology-card Methodologies">
+                    <div class="card-wrapper">
+                        <img class="tech-img" src="../../assets/Icons/methodology.png" alt="backend">
+                        <h3 class="heading">Methodologies</h3>
+                        <ul>
+                            <li class="skills-list">
+                                <span><fa-icon [icon]="fCheck"></fa-icon></span>
+                                Agile 
+                            </li>
+                            <li class="skills-list">
+                                <span><fa-icon [icon]="fCheck"></fa-icon></span>
+                                Clean Code
+                            </li>
+                            <li class="skills-list">
+                                <span><fa-icon [icon]="fCheck"></fa-icon></span>
+                                CI/CD Processes
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="technology-card Backend">
+                    <div class="card-wrapper">
+                        <img class="tech-img" src="../../assets/Icons/settings.png" alt="backend">
+                        <h3 class="heading">Tools</h3>
+                        <ul>
+                            <li class="skills-list">
+                                <span><fa-icon [icon]="fCheck"></fa-icon></span>
+                                IntelliJ IDEA
+                            </li>
+                            <li class="skills-list">
+                                <span><fa-icon [icon]="fCheck"></fa-icon></span>
+                                VSCode
+                            </li>
+                            <li class="skills-list">
+                                <span><fa-icon [icon]="fCheck"></fa-icon></span>
+                                GIT
+                            </li>
+                            <li class="skills-list">
+                                <span><fa-icon [icon]="fCheck"></fa-icon></span>
+                                GitLab CI
+                            </li>
+                            <li class="skills-list">
+                                <span><fa-icon [icon]="fCheck"></fa-icon></span>
+                                GitHub
+                            </li>
+                            <li class="skills-list">
+                                <span><fa-icon [icon]="fCheck"></fa-icon></span>
+                                JIRA/Trello
+                            </li>
+                            <li class="skills-list">
+                                <span><fa-icon [icon]="fCheck"></fa-icon></span>
+                               Maven
+                            </li>
+                            <li class="skills-list">
+                                <span><fa-icon [icon]="fCheck"></fa-icon></span>
+                                Postman
+                            </li>
+                            <li class="skills-list">
+                                <span><fa-icon [icon]="fCheck"></fa-icon></span>
+                                Dialog Flow
+                            </li>
+                            <li class="skills-list">
+                                <span><fa-icon [icon]="fCheck"></fa-icon></span>
+                                Eclipse
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
@@ -69,11 +223,11 @@
                                 href="{{project.github}}">Github</a></span>
                     </div>
                 </div>
-                </div>
-                <div class="btn-wrapper">
-                    <button class="btn" routerLink="/loading/projects">View More</button>
-                </div>
-            
+            </div>
+            <div class="btn-wrapper">
+                <button class="btn" routerLink="/loading/projects">View More</button>
+            </div>
+
         </div>
         <div class="section certification">
             <h2 class="heading">
@@ -81,22 +235,26 @@
             </h2>
             <div class="wrapper">
                 <div class="certifications">
-                       <img class="cert-img" src="../../assets/Certifications/Intro to Front-end.jpg" alt="Introducation to Frontend">
-                       <img class="cert-img" src="../../assets/Certifications/Programming with Javascript.jpg" alt="Programming with Javascript">
-                       <img class="cert-img" src="../../assets/Certifications/Version Control.jpg" alt="VersionControl">
-                       <img class="cert-img" src="../../assets/Certifications/Learning RxJs.png" alt="LearningRxjs">
-                       <img class="cert-img" src="../../assets/Certifications/Java(Basic).png" alt="Java(Basic)">
-                       <img class="cert-img" src="../../assets/Certifications/Angular(Basic).png" alt="Angular">                    
-                       <img class="cert-img" src="../../assets/Certifications/SQL(Basic).png" alt="SQL(Basic)">
-                       <img class="cert-img" src="../../assets/Certifications/SQL(Intermediate).png" alt="SQL(Intermediate)">
-                       
+                    <img class="cert-img" src="../../assets/Certifications/Intro to Front-end.jpg"
+                        alt="Introducation to Frontend">
+                    <img class="cert-img" src="../../assets/Certifications/Programming with Javascript.jpg"
+                        alt="Programming with Javascript">
+                    <img class="cert-img" src="../../assets/Certifications/Version Control.jpg" alt="VersionControl">
+                    <img class="cert-img" src="../../assets/Certifications/Learning RxJs.png" alt="LearningRxjs">
+                    <img class="cert-img" src="../../assets/Certifications/Java(Basic).png" alt="Java(Basic)">
+                    <img class="cert-img" src="../../assets/Certifications/Angular(Basic).png" alt="Angular">
+                    <img class="cert-img" src="../../assets/Certifications/SQL(Basic).png" alt="SQL(Basic)">
+                    <img class="cert-img" src="../../assets/Certifications/SQL(Intermediate).png"
+                        alt="SQL(Intermediate)">
+
                 </div>
-              </div>
+            </div>
         </div>
-            
+
         <div class="section contact">
             <h2 class="heading">Contact</h2>
-            <p class="contact-description">Would you like to connect? <a routerLink="contact" class="contact"> Contact me here.</a> You can also reach out to me through my socials</p>
+            <p class="contact-description">Would you like to connect? <a routerLink="contact" class="contact"> Contact
+                    me here.</a> You can also reach out to me through my socials</p>
 
         </div>
     </main>

@@ -9,6 +9,7 @@ import { ResumeComponent } from './resume/resume.component';
 
 const routes: Routes = [
   {path:'',component:MainComponent},
+  {path:'home',component:MainComponent},
   {path:'loading/:page', component:LoadingComponent},
   {path:'about',component:AboutComponent},
   {path:'contact',component:ContactComponent},

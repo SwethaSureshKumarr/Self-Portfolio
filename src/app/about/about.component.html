@@ -1,21 +1,20 @@
-<div class="About me">
-    <h2 class="headings"> About Me</h2>
-    <pre class="description">
-        I am a junior developer from India with almost two years of experience in software development and I love solving problems. I've been working with computers for as long as I can remember, and I've always been fascinated by how they work.
-        I love learning new things and exploring different technologies.
-        
-        For the past few years, my primary focus has been frontend programming using JavaScript and Angular, but I'm also skilled at back-end development with Java. 
-        Because I started my career as an ITSM developer, I am highly customer-focused and agile.
-    </pre>            
-</div>
-<div class="technologies">
-    <h2 class="heading">
-        Technologies
-    </h2>
-    <div class='technologies-wrapper'>
-        <div class="technology-card" *ngFor="let technology of technologies" >
-            <img src="{{technology.img}}" alt="{{technology.name}}">
-            <figcaption class="technology-name">{{technology.name}}</figcaption>                  
-        </div>
-    </div>
-</div>
+<div class="about-me">
+    <h2 class="heading"> About Me</h2>
+    <div class="about-wrapper">
+        <img class="about" src="../../assets/ABOUT.png">
+        <div class="description-wrapper">
+            <div class="socials-wrapper">
+                <a href="mailto:swethasureshkumarr@gmail.com?Subject=Some%20subject"><img class='gmail' src="../assets/Icons/gmail.png"/></a>
+                <a href="https://www.linkedin.com/in/swetha-suresh-kumar/"><img class='linkedin' src="../assets/Icons/linkedin.png"/></a>
+                <a href="https://www.github.com/SwethaSureshKumarr"><img class='github' src="../assets/Icons/github.png"/></a>
+                <a href="https://www.hackerrank.com/swethasuresh_ss1"><img class='hackerrank' src="../assets/Icons/hackerrank.png"/></a>
+            </div>
+            <p class="description">
+                I've been working as a junior developer for about two years and enjoy problem solving. I enjoy
+                learning and experimenting with new technologies. I'm looking for opportunities to gain hands-on
+                programming experience, and I'm especially interested in Frontend and Java development.
+            </p>
+            <p class="description">Would you like to see my resume?</p>
+            <div class="btn-wrapper">
+                <button class="btn" onclick="window.open('../../assets/SwethaSureshKumar.pdf')"> View Resume</button>
+            </div>

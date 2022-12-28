@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
-import {faS} from '@fortawesome/free-solid-svg-icons';
+import {faCheck, faCheckCircle, faS} from '@fortawesome/free-solid-svg-icons';
 
 
 @Component({
@@ -9,7 +9,7 @@ import {faS} from '@fortawesome/free-solid-svg-icons';
   styleUrls: ['./main.component.scss']
 })
 export class MainComponent {
-  sSolid =faS;
+  fCheck= faCheckCircle;
 
   constructor(private router: Router, private activatedRoute: ActivatedRoute){
     

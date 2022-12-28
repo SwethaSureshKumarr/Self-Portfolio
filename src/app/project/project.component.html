@@ -1,1 +1,33 @@
-<p>project works!</p>
+<div class="section projects">
+    <div class="heading-wrapper">
+        <h2 class="heading">
+            Projects
+        </h2>
+    </div>
+
+    <div class="projects-wrapper">
+        <div class="project-card" *ngFor="let project of projects">
+            <div class="floater"></div>
+            <img class="project-img" src="{{project.img}}" alt="{{project.name}}">
+            <div class="project-description">
+                <h4 class="project-name">{{project.name}}</h4>
+                <p class="description">{{project.description}}</p>
+
+                <div class="technologies" >
+                    <ul>
+                        <li class="skills-list" *ngFor="let technology of project.technologies">
+                            <span class="icons"><fa-icon [icon]="fCheck"></fa-icon></span>
+                            {{technology}}
+                        </li>
+                    </ul>
+                </div>
+                <div class="websites-wrapper">
+                    <span class="websites"><a href="{{project.live}}">Visit Website</a>|<a
+                    href="{{project.github}}">Github</a></span>
+                </div>
+              
+            </div>
+        </div>
+        </div>
+    
+</div>

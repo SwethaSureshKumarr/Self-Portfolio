@@ -1,0 +1,124 @@
+$primary-white: #f8f9f8;
+$primary-blue: #214173;
+$primary-green: #9bd0b2;
+$primary-peach: #f89589;
+$primary-yellow: #e7e39a;
+$secondary-blue: #214173;
+
+.project-card:hover .floater:nth-child(2n+1){
+    position: absolute;
+    background-color: $primary-blue;
+    width: 15px;
+    height: 354px;
+    top:0;
+    left: 0;
+    border-radius: 20px 0px 0px 20px;
+}
+
+
+.projects {
+    // color: $primary-white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
+    .heading{
+        color: $primary-blue;
+    }
+
+    .project-card {
+        position: relative;
+        height: 354px;
+        
+
+        li{
+            list-style: none;
+            margin-bottom: 5px;
+    
+            .icons{
+                background-color: $primary-blue;
+                width: 20px;
+                height: 20px;
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 15px;
+                margin: 5px;
+            }
+            fa-icon{
+                color: $primary-white;
+                
+            }
+        }
+
+        background-color: $primary-white;
+        display: flex;
+        margin-bottom: 50px;
+        border-radius: 15px;
+        // flex-direction: column;
+        justify-content: space-evenly;
+        word-break: break-word;
+        width: 70%;
+        // height: 747px;
+        margin: 20px;
+        padding: 36px;
+        border-radius: 17px;
+        border: 1px solid #dbdcdf;
+        box-shadow: -41px 41px 82px #dbdcdf;
+
+        .project-img {
+
+            border-radius: 15px;
+            display: inline-block;
+            width: 100%;
+            object-fit: fill;
+            height: 200px;
+        }
+        .project-description {
+            display: flex;
+            flex-wrap: wrap;
+            align-content: space-between;
+            
+            .project-name, .description, .websites{
+                margin: 15px 50px 0px 35px;
+                font-size: 24px;
+            }
+            ul{
+                list-style: none;
+                display: flex;
+                flex-wrap: wrap;
+                margin: 20px;
+
+            }
+            .skills-list{
+                margin-top: 10px;
+                margin-left: 10px;
+                margin-bottom: 10px;
+                display: flex;
+                align-items: center;
+                li{
+                    margin-left: 10px ;
+                    
+                }
+            }
+            .websites{
+                a{
+                    color: $primary-blue;
+                    text-decoration: none;
+                    margin-right: 10px; 
+                    margin-left: 10px;
+                    margin-top: 10px;
+                }
+            }
+        }
+        
+    }
+}
+
+.projects-wrapper{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
