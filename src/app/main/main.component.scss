@@ -12,7 +12,8 @@ $secondary-blue: #214173;
     padding: 0;
     box-sizing: border-box;
 }
-a{
+
+a {
     cursor: pointer;
 }
 
@@ -114,17 +115,17 @@ main {
 .technologies {
     color: $primary-blue;
 
-    .heading{
+    .heading {
         font-size: 24px;
         margin-top: 35px;
         font-weight: 500;
     }
 
-    li{
+    li {
         list-style: none;
         margin-bottom: 5px;
 
-        span{
+        span {
             background-color: $primary-blue;
             width: 20px;
             height: 20px;
@@ -133,9 +134,10 @@ main {
             justify-content: center;
             border-radius: 15px;
         }
-        fa-icon{
+
+        fa-icon {
             color: $primary-white;
-            
+
         }
     }
 
@@ -151,7 +153,7 @@ main {
         align-items: center;
         width: 20%;
         // height: 100px;
-       
+
     }
 
     .tech-img {
@@ -196,14 +198,14 @@ main {
         box-shadow: -41px 41px 82px #dbdcdf;
 
         .project-img {
-           
+
             border-radius: 15px;
             display: inline-block;
             width: 100%;
             object-fit: fill;
             height: 305px;
 
-           
+
         }
 
         .project-description {
@@ -355,7 +357,8 @@ main {
     border-radius: 10px;
     height: 10px;
 }
-.card-wrapper{
+
+.card-wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -365,7 +368,8 @@ main {
     border-radius: 17px;
     border: 1px solid #dbdcdf;
     box-shadow: -41px 41px 82px #dbdcdf;
-    &:hover{
+
+    &:hover {
         width: 101%;
         height: 601px;
     }
@@ -373,70 +377,78 @@ main {
 
 
 //mobile screen
-@media screen and (min-width:360px) and ( max-width:414px)  {
-    .cover-wrapper{
-        .name{
+@media screen and (min-width:360px) and (max-width:414px) {
+    .cover-wrapper {
+        .name {
             font-size: 35px;
         }
     }
 
-    .heading{
+    .heading {
         font-size: 30px;
         text-align: center;
     }
-    .about-me{
 
-        .description-wrapper{
+    .about-me {
+
+        .description-wrapper {
             width: 100%;
         }
 
-        .about-wrapper{
+        .about-wrapper {
             display: flex;
             flex-direction: column;
             align-items: center;
-            img.about{
+
+            img.about {
                 width: 200px;
                 height: 200px;
             }
         }
-        .socials-wrapper{
-            a{
-                img{
+
+        .socials-wrapper {
+            a {
+                img {
                     margin-top: 20px;
                     margin-left: 25px;
                 }
             }
-            
+
         }
     }
-    .technologies{
-        .technologies-wrapper{
+
+    .technologies {
+        .technologies-wrapper {
             display: flex;
             flex-direction: column;
             width: 100%;
-            .technology-card{
+
+            .technology-card {
                 width: 100%;
                 margin-bottom: 15px;
             }
         }
     }
-    .projects{
-        .projects-wrapper{
+
+    .projects {
+        .projects-wrapper {
             display: flex;
             flex-direction: column;
             align-items: center;
         }
-        .project-card{
+
+        .project-card {
             width: 100%;
-           
-        &:hover {
-            width: 35.5%;
-            height: 749px;
-        }
+
+            &:hover {
+                width: 100%;
+                height: 749px;
+            }
         }
 
-        .project-description{
+        .project-description {
             width: 100%;
+
             .project-name,
             .description,
             .websites {
@@ -446,27 +458,28 @@ main {
         }
     }
 
-    .certifications{
+    .certifications {
         width: 100%;
         height: 321px;
 
-       
-        img{
+
+        img {
             display: inline-block;
             width: 300px;
             height: 300px;
             margin-right: 5px;
         }
     }
+
     .wrapper {
         padding: 0px;
         display: flex;
         overflow-x: auto;
-    
+
         ::-webkit-scrollbar {
             width: 0;
             height: 0;
         }
-    
+
     }
 }
