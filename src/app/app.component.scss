@@ -71,3 +71,15 @@ li:hover .border{
     width: 66px;
     height: 2px;
 }
+
+//mobile screen
+
+@media screen and (min-width:360px) and ( max-width:414px)  {
+    .nav-bar{
+        a{
+            font-size: 15px;
+        }
+    }
+
+    
+}
