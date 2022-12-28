@@ -429,6 +429,10 @@ main {
         .project-card{
             width: 100%;
            
+        &:hover {
+            width: 35.5%;
+            height: 749px;
+        }
         }
 
         .project-description{
