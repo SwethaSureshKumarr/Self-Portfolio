@@ -11,6 +11,8 @@ $secondary-blue: #214173;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-tap-highlight-color: transparent;
 
 }
 html{
@@ -87,4 +89,9 @@ li:hover .border{
     li:hover a{
         color:#f89589 ;
     }
+}
+
+*{
+     -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-tap-highlight-color: transparent;
 }

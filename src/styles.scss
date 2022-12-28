@@ -4,6 +4,8 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'League Spartan', sans-serif;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-tap-highlight-color: transparent;
 }
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
 $primary-white: #f8f9f8;
