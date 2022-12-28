@@ -5,7 +5,7 @@ $primary-peach: #f89589;
 $primary-yellow: #e7e39a;
 $secondary-blue: #214173;
 
-.project-card:hover .floater:nth-child(2n+1){
+.project-card:hover .floater{
     position: absolute;
     background-color: $primary-blue;
     width: 15px;
@@ -149,5 +149,9 @@ $secondary-blue: #214173;
             }
         }
     }
+    .project-card:hover .floater{
+        height: 739px;
+    }
+    
     
 }
